@@ -179,6 +179,10 @@
   border-bottom: 4px solid var(--primary-color);
   flex: 1;
 }
+.section-content div a:hover {
+  color: var(--secondary-color);
+  border-bottom: 4px solid var(--secondary-color);
+}
 
   /* SECTION TITLE STYLES END */
   
