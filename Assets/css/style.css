@@ -122,7 +122,7 @@ section {
 .section-content {
   font-size: 20px;
   color: var(--primary-color);
-  padding: 0 160px 0 40px;
+  padding: 0 80px 0 40px;
   text-align: left;
   width: 100%;
 }
@@ -179,10 +179,19 @@ section {
   position: absolute;
   bottom: 30px;
 }
+
 .display-card h1 {
   font-size: 36px;
-  float: left;
+  text-align: left;
 }
+
+.display-card p {
+  font-size: 20px;
+  text-align: left;
+}
+
+
+/* Project Images */
 
 .project1 {
   background-image: url(https://via.placeholder.com/1300x600);
@@ -218,7 +227,12 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between
+}
+
+@media screen and (max-width: 1280px) {
+  .section-content {
+    padding: 0 30px 0 30px;
+  }
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -241,16 +255,41 @@ section {
   }
 
   header nav ul li a {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .hero-cta {
-    width: 100%;
-  }
-  
-  .hero-cta {
+    width: 25%;
     text-align: center;
   }
+
+  section {
+    padding: 40px 25px;
+  }
+
+  .section-title {
+    padding-right: 20px;
+    flex: 0 0 150px;
+  }
+
+  .section-title h2 {
+    font-size: 36px;
+  }
+
+  .section-content {
+    padding: 0 20px;
+  }
+
+  .main {
+    height: 500px;
+    min-width: 80%;
+  }
+
+  .secondary {
+    height: 200px;
+    min-width: 80%;
+  }
+
 }
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -258,4 +297,21 @@ section {
   section {
     padding: 30px 15px;
   }
+
+  .main {
+    height: 350px;
+    min-width: 80%;
+  }
+
+  .secondary {
+    height: 150px;
+    min-width: 80%;
+  }
+
+  .section-contact {
+    font-size: 18px;
+    border-bottom: 3px solid var(--primary-color);
+  }
+
+
 }
