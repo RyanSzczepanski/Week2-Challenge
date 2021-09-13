@@ -168,7 +168,7 @@ section {
 }
 
 .secondary {
-  height: 200px;
+  height: 400px;
   min-width: 40%;
 }
 
@@ -194,19 +194,19 @@ section {
 /* Project Images */
 
 .project1 {
-  background-image: url(https://via.placeholder.com/1300x600);
+  background-image: url('../images/game_watchers.png');
 }
 
 .project2 {
-  background-image: url(https://via.placeholder.com/600x200);
+  background-image: url('../images/drive_through_movie_theater.png');
 }
 
 .project3 {
-  background-image: url(https://via.placeholder.com/600x200);
+  background-image: url('../images/run_buddy.png');
 }
 
 .project4 {
-  background-image: url(https://via.placeholder.com/1300x200);
+  background-image: url(https://via.placeholder.com/1500x700);
 }
 
 /* MY WORK DISPLAY CARDS END */
